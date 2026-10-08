@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for MyMoney (com.mymoney.app) - 100% offline, privacy-first personal finance application for Android.">
+  <title>Privacy Policy | MyMoney</title>
+  <style>
+    :root {
+      --bg-color: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --primary: #0284c7;
+      --primary-dark: #0369a1;
+      --border-color: #e2e8f0;
+      --badge-bg: #e0f2fe;
+      --badge-text: #0369a1;
+      --code-bg: #f1f5f9;
+      --callout-bg: #ecfdf5;
+      --callout-border: #10b981;
+      --callout-text: #065f46;
+      --warning-bg: #fffbeb;
+      --warning-border: #f59e0b;
+      --warning-text: #92400e;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-color: #0b0f19;
+        --card-bg: #111827;
+        --text-main: #f1f5f9;
+        --text-muted: #94a3b8;
+        --primary: #38bdf8;
+        --primary-dark: #0284c7;
+        --border-color: #1e293b;
+        --badge-bg: #0c4a6e;
+        --badge-text: #7dd3fc;
+        --code-bg: #1e293b;
+        --callout-bg: #064e3b;
+        --callout-border: #10b981;
+        --callout-text: #a7f3d0;
+        --warning-bg: #451a03;
+        --warning-border: #f59e0b;
+        --warning-text: #fde68a;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      line-height: 1.65;
+      padding: 0 1rem 3rem 1rem;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 3rem 0 2rem 0;
+      border-bottom: 1px solid var(--border-color);
+      margin-bottom: 2rem;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      background-color: var(--badge-bg);
+      color: var(--badge-text);
+      border-radius: 9999px;
+      margin-bottom: 0.75rem;
+      letter-spacing: 0.025em;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      line-height: 1.2;
+      color: var(--text-main);
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+
+    .meta-box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      margin-top: 1rem;
+    }
+
+    .meta-item strong {
+      color: var(--text-main);
+    }
+
+    .highlight-card {
+      background: var(--callout-bg);
+      border-left: 4px solid var(--callout-border);
+      color: var(--callout-text);
+      padding: 1.25rem;
+      border-radius: 6px;
+      margin: 1.5rem 0 2rem 0;
+    }
+
+    .highlight-card h3 {
+      margin-bottom: 0.4rem;
+      font-size: 1.1rem;
+    }
+
+    .nav-toc {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .nav-toc h2 {
+      font-size: 1.1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .nav-toc ol {
+      padding-left: 1.25rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 0.35rem 1.5rem;
+    }
+
+    .nav-toc a {
+      color: var(--primary);
+      text-decoration: none;
+      font-size: 0.925rem;
+    }
+
+    .nav-toc a:hover {
+      text-decoration: underline;
+    }
+
+    article section {
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 0.85rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin: 1.25rem 0 0.5rem 0;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: var(--text-main);
+    }
+
+    ul, ol {
+      margin: 0 0 1.25rem 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.875em;
+      background-color: var(--code-bg);
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+    }
+
+    .table-container {
+      overflow-x: auto;
+      margin: 1.5rem 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.925rem;
+    }
+
+    th, td {
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border-color);
+    }
+
+    th {
+      background-color: var(--code-bg);
+      font-weight: 600;
+    }
+
+    .placeholder-warning {
+      background: var(--warning-bg);
+      border-left: 4px solid var(--warning-border);
+      color: var(--warning-text);
+      padding: 1rem;
+      border-radius: 6px;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border-color);
+      text-align: center;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">Privacy First &bull; 100% Offline</span>
+      <h1>Privacy Policy for MyMoney</h1>
+      <p class="subtitle">A completely offline, local personal finance manager designed with zero data collection.</p>
+      <div class="meta-box">
+        <div class="meta-item"><strong>Application:</strong> MyMoney</div>
+        <div class="meta-item"><strong>Package ID:</strong> <code>com.mymoney.app</code></div>
+        <div class="meta-item"><strong>Effective Date:</strong> October 6, 2026</div>
+        <div class="meta-item"><strong>Last Updated:</strong> October 6, 2026</div>
+      </div>
+    </header>
+
+    <div class="highlight-card">
+      <h3>Summary in Plain English</h3>
+      <p>MyMoney does not collect, transmit, share, or sell any of your personal or financial data. The application does not request the Android Internet permission (<code>android.permission.INTERNET</code>) and operates 100% offline. All financial records, accounts, budgets, and security settings stay entirely on your physical device.</p>
+    </div>
+
+    <nav class="nav-toc" aria-label="Table of Contents">
+      <h2>Table of Contents</h2>
+      <ol>
+        <li><a href="#introduction">1. Introduction &amp; Core Principles</a></li>
+        <li><a href="#information-collection">2. Information Collection &amp; Use</a></li>
+        <li><a href="#financial-data">3. Financial Data &amp; Local Storage</a></li>
+        <li><a href="#network-behavior">4. Internet &amp; Network Behavior</a></li>
+        <li><a href="#feedback-support">5. User-Initiated Feedback &amp; Diagnostics</a></li>
+        <li><a href="#backup-restore">6. Backup &amp; Restore Mechanism</a></li>
+        <li><a href="#encrypted-backup">7. Encrypted Backup Security (AES-256-GCM)</a></li>
+        <li><a href="#app-lock">8. App Lock &amp; PIN Security</a></li>
+        <li><a href="#biometrics">9. Biometric Authentication</a></li>
+        <li><a href="#screen-security">10. Screen Protection (FLAG_SECURE)</a></li>
+        <li><a href="#data-sharing">11. Data Sharing &amp; Third-Party Services</a></li>
+        <li><a href="#cloud-backup-prevention">12. Cloud Backup Disablement</a></li>
+        <li><a href="#data-retention">13. Data Retention &amp; Deletion</a></li>
+        <li><a href="#children-privacy">14. Children's Privacy</a></li>
+        <li><a href="#security-measures">15. Overall Security Posture</a></li>
+        <li><a href="#policy-changes">16. Changes to This Privacy Policy</a></li>
+        <li><a href="#contact">17. Contact Information</a></li>
+      </ol>
+    </nav>
+
+    <article>
+      <section id="introduction">
+        <h2>1. Introduction &amp; Core Principles</h2>
+        <p>This Privacy Policy applies to the <strong>MyMoney</strong> mobile application (package name: <code>com.mymoney.app</code>) for Android, developed and maintained as an independent, privacy-focused personal finance utility.</p>
+        <p>We believe that personal financial information is strictly private. Most modern finance applications require cloud accounts, track transaction habits, or transmit telemetry back to central servers. MyMoney was engineered from the ground up on the opposite philosophy: <strong>your financial life belongs only to you and must never leave your physical device.</strong></p>
+      </section>
+
+      <section id="information-collection">
+        <h2>2. Information Collection &amp; Use</h2>
+        <p>To provide complete transparency, we categorize data into three distinct areas:</p>
+        
+        <h3>A. Data MyMoney Stores Locally</h3>
+        <p>All financial accounts, transaction entries, categories, tags, monthly budgets, savings goals, and display preferences you enter are stored solely in local SQLite databases and encrypted DataStore files inside your device's private app sandbox. This data never leaves your device automatically.</p>
+
+        <h3>B. Data MyMoney Does NOT Automatically Collect</h3>
+        <p>The application performs <strong>zero automated background data collection</strong>. We do not automatically collect, record, track, profile, or transmit any of the following:</p>
+        <ul>
+          <li><strong>Personal Identifiers:</strong> Name, phone number, physical address, or device hardware IDs.</li>
+          <li><strong>Financial Identifiers:</strong> Bank account numbers, debit/credit card numbers, routing codes, or UPI IDs.</li>
+          <li><strong>Behavioral Telemetry:</strong> Screen views, click heatmaps, user interaction logs, or feature usage statistics.</li>
+          <li><strong>Automated Diagnostics:</strong> Crash traces or operational telemetry are never sent over the network automatically.</li>
+          <li><strong>Location Information:</strong> GPS coordinates, Wi-Fi networks, IP addresses, or cell tower locations.</li>
+        </ul>
+
+        <h3>C. Data You May Voluntarily Transmit (User-Initiated Feedback)</h3>
+        <p>If you choose to use the in-app "Feedback &amp; Support" feature, you may voluntarily send an email to our support team using your device's installed email client. See Section 5 for full details on what diagnostic metadata is pre-filled and how it is processed.</p>
+      </section>
+
+      <section id="financial-data">
+        <h2>3. Financial Data &amp; Local Storage</h2>
+        <p>All data entered into MyMoney is stored strictly within the private application sandbox on your local Android device:</p>
+        <ul>
+          <li><strong>Transactions:</strong> Dates, amounts, categories, accounts, notes, and transaction types (Income, Expense, Transfer).</li>
+          <li><strong>Accounts:</strong> Account names, types (Cash, Bank, Credit Card, Wallet, Investment, Other), balances, and active currencies.</li>
+          <li><strong>Categories:</strong> Income and expense category hierarchies, names, icons, and colors.</li>
+          <li><strong>Budgets &amp; Goals:</strong> Monthly budget thresholds, category assignments, savings target balances, and deadlines.</li>
+          <li><strong>Recurring Rules:</strong> Scheduled recurrence patterns (daily, weekly, monthly, yearly) and generation logic.</li>
+        </ul>
+        <p>This information is persisted in a local SQLite database (managed via Android Jetpack Room, database file: <code>mymoney.db</code>). User interface preferences (theme selection, currency symbol, masked balance state, security timeouts) are stored locally in Jetpack DataStore Preferences (<code>app_preferences</code>). Neither file is accessible to other applications installed on your device.</p>
+      </section>
+
+      <section id="network-behavior">
+        <h2>4. Internet &amp; Network Behavior</h2>
+        <p>MyMoney is <strong>100% offline</strong> by design and implementation:</p>
+        <ul>
+          <li>The application manifest (<code>AndroidManifest.xml</code>) <strong>does not declare</strong> the <code>android.permission.INTERNET</code> permission.</li>
+          <li>The application <strong>does not declare</strong> the <code>android.permission.ACCESS_NETWORK_STATE</code> permission.</li>
+          <li>The application code contains <strong>no HTTP/HTTPS networking libraries</strong> (no OkHttp, Retrofit, Ktor, Volley, or Apache HttpClient).</li>
+          <li>The application cannot open network sockets, establish connections, or transfer data over Wi-Fi or cellular networks. Even if the application attempted a network call, the Android operating system would unconditionally terminate it.</li>
+        </ul>
+      </section>
+
+      <section id="feedback-support">
+        <h2>5. User-Initiated Feedback &amp; Diagnostics</h2>
+        <p>MyMoney contains an in-app "Feedback &amp; Support" feature that allows users to send feedback, submit bug reports, or suggest new features:</p>
+        <ul>
+          <li><strong>User-Initiated Only:</strong> The application never automatically contacts support or sends telemetry. Communication is initiated exclusively when you explicitly select a support option in the application settings.</li>
+          <li><strong>External Email Client:</strong> Selecting a feedback option opens your device's external email client using the standard Android <code>ACTION_SENDTO</code> intent pre-addressed to <code>support@mymoney.app</code>. The application itself does not possess network permissions and cannot send emails directly.</li>
+          <li><strong>Pre-Filled Device Diagnostics:</strong> To help troubleshoot technical issues and understand device compatibility, the draft email body is pre-populated with basic, non-sensitive hardware and operating system parameters:
+            <ul>
+              <li>Application Version and Build Code (e.g., <code>v1.0.0</code>)</li>
+              <li>Android OS Version and API Level (e.g., <code>Android 16 (API 36)</code>)</li>
+              <li>Device Manufacturer and Model Name (e.g., <code>OnePlus CPH2717</code>)</li>
+            </ul>
+          </li>
+          <li><strong>Strictly Zero Financial Data:</strong> The pre-filled diagnostic template contains <strong>no personal information and zero financial data</strong>. It does not include account names, balances, transaction logs, categories, notes, budgets, PIN hashes, or backup encryption keys.</li>
+          <li><strong>Full User Control:</strong> You have complete visibility into the email draft before sending. You may edit, add, or delete any portion of the message or diagnostics, or discard the email entirely. Nothing is transmitted until you actively tap the send button in your email application.</li>
+          <li><strong>Support Email Handling:</strong> When you send an email to our support team, your email address, message body, and any attachments you voluntarily provide are used solely to review your feedback, resolve reported defects, or answer your inquiries. We do not sell, rent, or share support communications with third parties or use them for marketing purposes.</li>
+        </ul>
+      </section>
+
+      <section id="backup-restore">
+        <h2>6. Backup &amp; Restore Mechanism</h2>
+        <p>MyMoney provides a comprehensive manual backup and restore feature to ensure you never lose your data when upgrading or replacing devices:</p>
+        <ul>
+          <li><strong>Manual and User-Initiated:</strong> Backups are generated solely when you explicitly tap "Create Backup" in the application settings. The app never creates automated cloud backups.</li>
+          <li><strong>Local File Creation:</strong> Backups are saved as <code>.mmbak</code> files. Through Android's Storage Access Framework (SAF), you choose the exact storage location (such as local Downloads, internal storage, or an external SD card).</li>
+          <li><strong>Manual Sharing:</strong> If you use the Android system share sheet to send a backup file to another app (such as Google Drive, an email draft, or a messaging app), the transmission is handled directly by that target application under its respective privacy policy. MyMoney has no control over or visibility into third-party apps you share files to.</li>
+        </ul>
+      </section>
+
+      <section id="encrypted-backup">
+        <h2>7. Encrypted Backup Security (AES-256-GCM)</h2>
+        <p>To ensure total confidentiality, MyMoney provides military-grade authenticated encryption for all exported backup archives:</p>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Security Parameter</th>
+                <th>Implementation Specification</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Encryption Algorithm</td>
+                <td><strong>AES-256-GCM</strong> (Galois/Counter Mode, 256-bit key) with authenticated ciphertext verification.</td>
+              </tr>
+              <tr>
+                <td>Key Derivation Function</td>
+                <td><strong>PBKDF2</strong> with HMAC-SHA256 and <strong>65,536 iterations</strong>.</td>
+              </tr>
+              <tr>
+                <td>Cryptographic Salt</td>
+                <td>128-bit cryptographically secure pseudorandom salt generated per backup via <code>SecureRandom</code>.</td>
+              </tr>
+              <tr>
+                <td>Initialization Vector (IV)</td>
+                <td>96-bit unique IV generated per backup via <code>SecureRandom</code>.</td>
+              </tr>
+              <tr>
+                <td>Password Storage</td>
+                <td><strong>Zero knowledge.</strong> The developer and application never store, transmit, or cache your backup password. If you lose your backup password, the backup file cannot be decrypted or recovered by anyone.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="app-lock">
+        <h2>8. App Lock &amp; PIN Security</h2>
+        <p>MyMoney includes an optional built-in App Lock feature to prevent unauthorized access when lending your phone or leaving it unattended:</p>
+        <ul>
+          <li><strong>PIN Protection:</strong> When you configure a PIN, it is hashed with a cryptographically secure salt before storage. The plain-text PIN is never stored anywhere on the device.</li>
+          <li><strong>Auto-Lock Timers:</strong> You can configure the application to lock immediately when minimized, or after a customizable inactivity timeout (30 seconds, 1 minute, 5 minutes, etc.).</li>
+          <li><strong>Brute-Force Safeguards:</strong> Failed unlock attempts trigger progressive exponential lockouts to thwart automated or manual guessing.</li>
+        </ul>
+      </section>
+
+      <section id="biometrics">
+        <h2>9. Biometric Authentication</h2>
+        <p>MyMoney supports Android Biometric Authentication (Fingerprint, Face Unlock) via the official Android Jetpack <code>BiometricPrompt</code> API:</p>
+        <ul>
+          <li><strong>Hardware Isolation:</strong> All biometric processing occurs strictly within the device's secure hardware (Trusted Execution Environment / TEE, Secure Element, or Titan M chip).</li>
+          <li><strong>Zero Biometric Access:</strong> MyMoney <strong>never sees, receives, accesses, or stores</strong> your biometric samples, raw images, or mathematical templates. The Android operating system merely returns a cryptographically signed binary result (Success or Failure).</li>
+          <li><strong>Permissions Used:</strong> <code>android.permission.USE_BIOMETRIC</code> and backward-compatible <code>android.permission.USE_FINGERPRINT</code>.</li>
+        </ul>
+      </section>
+
+      <section id="screen-security">
+        <h2>10. Screen Protection (FLAG_SECURE)</h2>
+        <p>In release versions of MyMoney, all activities enforce the Android window protection flag: <code>WindowManager.LayoutParams.FLAG_SECURE</code>.</p>
+        <ul>
+          <li>This prevents the operating system, background services, malware, or screen recorders from capturing screenshots or recording video of your financial screens.</li>
+          <li>It prevents your financial balances and sensitive transactions from appearing in the Android Recent Apps / Task Switcher preview carousel.</li>
+        </ul>
+      </section>
+
+      <section id="data-sharing">
+        <h2>11. Data Sharing &amp; Third-Party Services</h2>
+        <p>Because MyMoney has no backend servers and no internet access, <strong>we do not and cannot share, sell, rent, monetize, or disclose your data to any third party</strong>.</p>
+        <ul>
+          <li><strong>No Ad Networks:</strong> No Google AdMob, Unity Ads, AppLovin, or any other advertising SDK.</li>
+          <li><strong>No Analytics SDKs:</strong> No Google Analytics, Firebase Analytics, Mixpanel, Flurry, or Amplitude.</li>
+          <li><strong>No Crash Reporting Services:</strong> No Firebase Crashlytics, Sentry, or Bugsnag.</li>
+          <li><strong>No Social SDKs:</strong> No Facebook SDK, Twitter SDK, or Google Sign-In SDK.</li>
+          <li><strong>No Banking aggregators:</strong> No Plaid, Yodlee, Salt Edge, or third-party scraper connections. All data entry is 100% manual or CSV-imported by you.</li>
+        </ul>
+      </section>
+
+      <section id="cloud-backup-prevention">
+        <h2>12. Cloud Backup Disablement</h2>
+        <p>Many Android devices automatically upload application data to Google Drive or OEM cloud servers via Android Auto Backup. To ensure your financial database is not inadvertently sent to the cloud without your knowledge, MyMoney explicitly declares in its manifest:</p>
+        <code>android:allowBackup="false"</code>
+        <p>Furthermore, custom <code>data_extraction_rules.xml</code> and <code>backup_rules.xml</code> configurations explicitly disallow extraction of application database and shared preference files. You retain 100% control over when, where, and how your data is backed up.</p>
+      </section>
+
+      <section id="data-retention">
+        <h2>13. Data Retention &amp; Deletion</h2>
+        <p>You have unconditional control over your data retention and deletion:</p>
+        <ul>
+          <li><strong>Immediate Complete Deletion on Uninstall:</strong> Because all data is stored inside Android's private app sandbox, uninstalling MyMoney via Android Settings immediately, permanently, and irrevocably deletes all databases, preference files, and cached records from the device.</li>
+          <li><strong>In-App Data Reset:</strong> The application settings include options to clear all transaction records, reset accounts, or restore a blank database at any time.</li>
+          <li><strong>Exported Backup Deletion:</strong> Any backup files (<code>.mmbak</code>) or CSV exports created by you reside in the storage folder you specified; you may delete them at any time using your preferred file manager.</li>
+        </ul>
+      </section>
+
+      <section id="children-privacy">
+        <h2>14. Children's Privacy</h2>
+        <p>MyMoney is a general-audience personal finance utility. The application does not knowingly or unknowingly collect, store, or transmit personal data from children under the age of 13 (or under 16 in certain jurisdictions), or from any users whatsoever. Because the app does not collect personal data, it fully complies with the Children's Online Privacy Protection Act (COPPA), the General Data Protection Regulation (GDPR), and relevant child privacy statutes worldwide.</p>
+      </section>
+
+      <section id="security-measures">
+        <h2>15. Overall Security Posture</h2>
+        <p>MyMoney implements comprehensive defense-in-depth security principles:</p>
+        <ol>
+          <li><strong>Operating System Sandboxing:</strong> Android's Linux kernel user-isolation ensures no other application can read MyMoney's SQLite database or preference files.</li>
+          <li><strong>Authenticated Encryption:</strong> AES-256-GCM encryption with 65,536 iterations of PBKDF2 protects all exported backups.</li>
+          <li><strong>Zero Network Footprint:</strong> Zero permissions, zero sockets, zero background data synching.</li>
+          <li><strong>Hardware-Backed Biometrics:</strong> Keystore and TEE integration through Android BiometricPrompt.</li>
+          <li><strong>Window Leak Protection:</strong> <code>FLAG_SECURE</code> blocks screen capture and task switcher snooping.</li>
+        </ol>
+      </section>
+
+      <section id="policy-changes">
+        <h2>16. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time to reflect modifications to the application or legal requirements. When changes are made, the "Last Updated" date at the top of this page will be revised accordingly. Because MyMoney does not collect email addresses or contact details, we encourage users to review this page periodically or review the privacy disclosures included with app updates on Google Play.</p>
+      </section>
+
+      <section id="contact">
+        <h2>17. Contact Information</h2>
+        <p>If you have questions, feedback, or concerns regarding this Privacy Policy or MyMoney's data protection practices, please contact us at:</p>
+        
+        <div class="placeholder-warning">
+          <strong>Notice:</strong> The configured support email address is <code>support@mymoney.app</code> (managed in <code>AppConfig.kt</code>). If publishing under a different developer domain, update <code>AppConfig.SUPPORT_EMAIL</code> accordingly.
+        </div>
+
+        <p><strong>Support &amp; Privacy Contact:</strong><br>
+        Email: <code>support@mymoney.app</code><br>
+        Application: MyMoney (<code>com.mymoney.app</code>)<br>
+        Developer: MyMoney Project Team</p>
+      </section>
+    </article>
+
+    <footer>
+      <p>&copy; 2026 MyMoney. All rights reserved. 100% Offline &amp; Privacy-First Personal Finance.</p>
+    </footer>
+  </div>
+</body>
+</html>
